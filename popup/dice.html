@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 	<head>
 		<title>Dice</title>
-		<script src="roll.js"></script>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<main>
-			<button onclick="test()">d4</button>
-			<button>d6</button>
-			<button>d8</button>
-			<button>d10</button>
-			<button>d12</button>
-			<button>d20</button>
-			Custom min:___
-			Custom max:___
-			<button>Custom</button>
-			This is a test!
-			clear	
+			<p>
+				<button id="d4">d4</button>
+				<button>d6</button>
+				<button>d8</button
+			</p>
+			<p>
+				<button>d10</button>
+				<button>d12</button>
+				<button>d20</button>
+			</p>
+			<p>
+				Custom min:___
+				Custom max:___
+				<button>Custom</button>
+			</p>
+			Result:
+			<div id="roll_result">?</div>
+			<button id="clear">clear</button>
+			<script src="roll.js"></script>
 		</main>
 	</body>
 </html>

@@ -16,9 +16,6 @@
     }
   },
 
-  "background": {
-    "scripts": [ "background123.js"]
-  },
 
   "browser_action": {
 	  "browser_style": true,
@@ -32,6 +29,7 @@
   },
 
   "permissions": [
-    "notifications"
+    "notifications",
+    "activeTab"
   ]
 }
