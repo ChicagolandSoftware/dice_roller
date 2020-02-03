@@ -4,10 +4,10 @@
   "name": "Dicer Roller",
   "version": "1.0",
 
-  "description": "Lets you roll dice by clicking the button and selecting which die to roll",
+  "description": "Lets you roll dice by clicking buttons",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/page-48dr.png"
   },
 
   "applications": {
@@ -17,19 +17,21 @@
   },
 
   "background": {
-    "scripts": [ "background.js"]
+    "scripts": [ "background123.js"]
   },
 
   "browser_action": {
+	  "browser_style": true,
     "default_icon": {
-      "16": "icons/page-16.png",
-      "32": "icons/page-32.png"
+      "16": "icons/page-16dr.png",
+      "32": "icons/page-32dr.png",
+      "48": "icons/page-48dr.png"
     },
     "default_title": "Dice Roller",
     "default_popup": "popup/dice.html"
   },
 
   "permissions": [
-    "clipboardWrite"
+    "notifications"
   ]
 }
