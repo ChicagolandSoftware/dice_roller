@@ -1,0 +1,35 @@
+{
+
+  "manifest_version": 2,
+  "name": "Dicer Roller",
+  "version": "1.0",
+
+  "description": "Lets you roll dice by clicking the button and selecting which die to roll",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "alan@saintlouissoftware.com"
+    }
+  },
+
+  "background": {
+    "scripts": [ "background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/page-16.png",
+      "32": "icons/page-32.png"
+    },
+    "default_title": "Dice Roller",
+    "default_popup": "popup/dice.html"
+  },
+
+  "permissions": [
+    "clipboardWrite"
+  ]
+}
